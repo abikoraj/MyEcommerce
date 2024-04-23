@@ -1,0 +1,19 @@
+<div class="product-list">
+  <div [routerLink]="['/aaaaaaaa/'+item.id]" routerLinkActive="router-link-active" class="product-item"
+    *ngFor="let item of this.product.items">
+    <img src="{{ url+ item.product_images }}" alt="">
+    <div class="name">
+      {{ item.product_name }}
+    </div>
+    <div class="price">
+      Rs. {{ item.mark_price }}
+    </div>
+    <div class="cart-btn">
+      <button>
+
+        Add to Cart
+
+      </button>
+    </div>
+  </div>
+</div>

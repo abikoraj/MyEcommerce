@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  .brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    .brand-img {
+      top: 0;
+      left: 0;
+      display: inline-block;
+      background-color: #393d46;
+      padding: 50px;
+      margin: 0;
+      height: 30px;
+      width: 30px;
+      // line-height: 40;
+    }
+    .brand-name {
+      padding: 0 20px;
+      // margin-top: -10px;
+    }
+  }
+  .header-item {
+    flex: 1;
+
+    .nav-list {
+      line-height: 125px;
+      text-align: right;
+    }
+    .nav-item {
+      padding: 0 10px;
+      // margin: 0 10px;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+      &.active {
+        color: #000000;
+        font-weight: 700;
+      }
+    }
+  }
+}

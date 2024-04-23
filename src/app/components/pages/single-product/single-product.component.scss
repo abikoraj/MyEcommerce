@@ -1,0 +1,10 @@
+.container {
+  background-color: #ffffff;
+  // max-width: 1024px;
+  margin: 0 130px;
+  display: flex;
+  padding-top: 75px;
+  .slider-item {
+    flex: 1;
+  }
+}
